@@ -1,0 +1,34 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Node/React
+giao_dien_web/node_modules/
+giao_dien_web/dist/
+giao_dien_web/dist-ssr/
+giao_dien_web/*.local
+giao_dien_web/.eslintcache
+
+# Database & System logs
+*.db
+*.sqlite
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Static Uploaded data (ảnh bằng chứng vi phạm tự sinh)
+backend_api/static/
+backend_api/thu_muc_tinh/uploads/
